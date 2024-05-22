@@ -1,0 +1,25 @@
+sendkeys:
+  name: Send Keys
+  description: Send keystrokes to remote TCP server
+  fields:
+    serverIp:
+      name: Server IP Address
+      Description: IP Address of Server
+      required: true
+      selector: 
+        text:
+    serverPort:
+      name: Server Port Address
+      Description: The Port of the web listener
+      required: true
+      default: "65432"
+      selector: 
+        text:      
+    keyname:
+      name: Key Name
+      Description: Name of the key to send
+      required: true
+      selector: 
+        text:
+
+
